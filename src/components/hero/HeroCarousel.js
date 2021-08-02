@@ -9,7 +9,7 @@ const HeroCarousel = () => {
 		<Carousel
 			fade
 			controls={false}
-			interval='998000'
+			interval='2000'
 			indicators={false}
 			className='hero-carousel'>
 			{PEOPLES.map((people) => {

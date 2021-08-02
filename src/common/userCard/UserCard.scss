@@ -2,14 +2,8 @@
 	width: 95%;
 	height: 8rem;
 	margin: 0.2rem;
-	box-shadow: 0 1px 11px 1px hsl(240, 11%, 89%);
 
 	.col-one {
-		border-right: 1px solid hsl(0, 0%, 92%);
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		flex-direction: column;
 		.name {
 			font-size: 1.375rem;
 			font-weight: 700;
@@ -18,63 +12,21 @@
 			font-size: 1rem;
 			font-weight: 300;
 		}
+		.ratings {
+			width: 100%;
+			height: auto;
+		}
 	}
 
 	.col-two {
-		border-right: 1px solid hsl(0, 0%, 92%);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		.row-one {
+		.expertise-row {
 			border-bottom: 1px solid hsl(0, 0%, 92%);
-
-			.heading {
-				font-size: 0.75rem;
-			}
-			.value {
-				font-size: 1rem;
-				font-weight: 400;
-			}
-		}
-
-		.row-two {
-			.heading {
-				font-size: 0.75rem;
-			}
-			.value {
-				font-size: 1rem;
-				font-weight: 400;
-			}
 		}
 	}
 
 	.col-three {
-		border-right: 1px solid hsl(0, 0%, 92%);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		.row-one {
+		.experience-row {
 			border-bottom: 1px solid hsl(0, 0%, 92%);
-
-			.heading {
-				font-size: 0.75rem;
-			}
-			.value {
-				font-size: 1rem;
-				font-weight: 400;
-			}
-		}
-
-		.row-two {
-			.heading {
-				font-size: 0.75rem;
-			}
-			.value {
-				font-size: 1rem;
-				font-weight: 400;
-			}
 		}
 	}
 }

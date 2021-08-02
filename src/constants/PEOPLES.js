@@ -1,4 +1,4 @@
-import { Amy, Andrew, Chris, Ciro, Gemma, Kery } from "../assets";
+import { Amy, Andrew, Chris, Ciro, Gemma, Kery, Ratings } from "../assets";
 
 export const PEOPLES = [
 	{
@@ -9,6 +9,7 @@ export const PEOPLES = [
 		experience: "10 years",
 		location: "India",
 		sales: "+200%",
+		ratings: Ratings,
 	},
 	{
 		id: 2,
@@ -18,6 +19,7 @@ export const PEOPLES = [
 		experience: "10 years",
 		location: "India",
 		sales: "+200%",
+		ratings: Ratings,
 	},
 	{
 		id: 3,
@@ -27,6 +29,7 @@ export const PEOPLES = [
 		experience: "10 years",
 		location: "India",
 		sales: "+200%",
+		ratings: Ratings,
 	},
 	{
 		id: 4,
@@ -36,6 +39,7 @@ export const PEOPLES = [
 		experience: "10 years",
 		location: "India",
 		sales: "+200%",
+		ratings: Ratings,
 	},
 	{
 		id: 5,
@@ -45,6 +49,7 @@ export const PEOPLES = [
 		experience: "10 years",
 		location: "India",
 		sales: "+200%",
+		ratings: Ratings,
 	},
 	{
 		id: 6,
@@ -54,5 +59,6 @@ export const PEOPLES = [
 		experience: "10 years",
 		location: "India",
 		sales: "+200%",
+		ratings: Ratings,
 	},
 ];
