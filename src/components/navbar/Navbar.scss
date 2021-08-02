@@ -1,0 +1,10 @@
+.mayple-nav {
+	.get-started-button,
+	.get-started-button:active,
+	.get-started-button:hover {
+		background-color: hsl(5, 100%, 68%) !important;
+		border-color: rgb(255, 105, 92) !important;
+		border-radius: 0;
+		font-size: 1rem;
+	}
+}

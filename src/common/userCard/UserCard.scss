@@ -1,0 +1,79 @@
+.user-card {
+	width: 100%;
+	height: 8rem;
+	box-shadow: 2px 1px 11px 1px hsl(240, 4%, 49%);
+
+	.col-one {
+		border-right: 1px solid hsl(0, 0%, 92%);
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+		.name {
+			font-size: 1.375rem;
+			font-weight: 700;
+		}
+		.location {
+			font-size: 1rem;
+			font-weight: 300;
+		}
+	}
+
+	.col-two {
+		border-right: 1px solid hsl(0, 0%, 92%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		.row-one {
+			border-bottom: 1px solid hsl(0, 0%, 92%);
+
+			.heading {
+				font-size: 0.75rem;
+			}
+			.value {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+		}
+
+		.row-two {
+			.heading {
+				font-size: 0.75rem;
+			}
+			.value {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+		}
+	}
+
+	.col-three {
+		border-right: 1px solid hsl(0, 0%, 92%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		.row-one {
+			border-bottom: 1px solid hsl(0, 0%, 92%);
+
+			.heading {
+				font-size: 0.75rem;
+			}
+			.value {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+		}
+
+		.row-two {
+			.heading {
+				font-size: 0.75rem;
+			}
+			.value {
+				font-size: 1rem;
+				font-weight: 400;
+			}
+		}
+	}
+}

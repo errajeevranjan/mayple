@@ -1,0 +1,18 @@
+@import url("../assets/fonts/stylesheet.css");
+@import "~bootstrap/scss/bootstrap";
+html {
+	* {
+		padding: 0;
+		margin: 0;
+		// debugg ghost elements
+		// background: #000 !important;
+		// color: #0f0 !important;
+		// outline: solid #f00 1px !important;
+	}
+
+	// body css starts here
+	body {
+		font-family: "GT Walsheim Pro", sans-serif;
+		background-color: burlywood;
+	}
+}

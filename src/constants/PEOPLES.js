@@ -1,0 +1,58 @@
+import { Amy, Andrew, Chris, Ciro, Gemma, Kery } from "../assets";
+
+export const PEOPLES = [
+	{
+		id: 1,
+		name: "Amy",
+		pic: Amy,
+		expertise: "expertise",
+		experience: "10 years",
+		location: "India",
+		sales: "+200%",
+	},
+	{
+		id: 2,
+		name: "Andrew",
+		pic: Andrew,
+		expertise: "expertise",
+		experience: "10 years",
+		location: "India",
+		sales: "+200%",
+	},
+	{
+		id: 3,
+		name: "Chris",
+		pic: Chris,
+		expertise: "expertise",
+		experience: "10 years",
+		location: "India",
+		sales: "+200%",
+	},
+	{
+		id: 4,
+		name: "Ciro",
+		pic: Ciro,
+		expertise: "expertise",
+		experience: "10 years",
+		location: "India",
+		sales: "+200%",
+	},
+	{
+		id: 5,
+		name: "Gemma",
+		pic: Gemma,
+		expertise: "expertise",
+		experience: "10 years",
+		location: "India",
+		sales: "+200%",
+	},
+	{
+		id: 6,
+		name: "Kery",
+		pic: Kery,
+		expertise: "expertise",
+		experience: "10 years",
+		location: "India",
+		sales: "+200%",
+	},
+];
